@@ -13,6 +13,9 @@
 		1E39A4FF2563590200F3A1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E39A4FD2563590200F3A1FB /* Main.storyboard */; };
 		1E39A5012563590400F3A1FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E39A5002563590400F3A1FB /* Assets.xcassets */; };
 		1E39A5042563590400F3A1FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E39A5022563590400F3A1FB /* LaunchScreen.storyboard */; };
+		1E39A50E25642C5400F3A1FB /* constants swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39A50D25642C5400F3A1FB /* constants swift.swift */; };
+		1E39A5112564316800F3A1FB /* video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39A5102564316800F3A1FB /* video.swift */; };
+		1E39A514256431FA00F3A1FB /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39A513256431FA00F3A1FB /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1E39A5002563590400F3A1FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E39A5032563590400F3A1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E39A5052563590400F3A1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E39A50D25642C5400F3A1FB /* constants swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "constants swift.swift"; sourceTree = "<group>"; };
+		1E39A5102564316800F3A1FB /* video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video.swift; sourceTree = "<group>"; };
+		1E39A513256431FA00F3A1FB /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				1E39A5002563590400F3A1FB /* Assets.xcassets */,
 				1E39A5022563590400F3A1FB /* LaunchScreen.storyboard */,
 				1E39A5052563590400F3A1FB /* Info.plist */,
+				1E39A50D25642C5400F3A1FB /* constants swift.swift */,
+				1E39A5102564316800F3A1FB /* video.swift */,
+				1E39A513256431FA00F3A1FB /* model.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E39A4FC2563590200F3A1FB /* ViewController.swift in Sources */,
+				1E39A514256431FA00F3A1FB /* model.swift in Sources */,
 				1E39A4F82563590200F3A1FB /* AppDelegate.swift in Sources */,
+				1E39A50E25642C5400F3A1FB /* constants swift.swift in Sources */,
 				1E39A4FA2563590200F3A1FB /* SceneDelegate.swift in Sources */,
+				1E39A5112564316800F3A1FB /* video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
